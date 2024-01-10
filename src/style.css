@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+
+.back {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rec {
+  background-color: rgb(110, 5, 5);
+}
+
+.rec:hover,
+.stop:hover {
+  cursor: pointer;
+}
+
+.stop {
+  background-color: rgb(3, 45, 66);
+}
+.btn{
+  margin: 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: white;
+}
+.btn:hover{
+  border: 1px solid white;
+}
